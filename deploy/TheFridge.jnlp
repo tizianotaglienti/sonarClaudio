@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TheFridge.jnlp">
+  <information>
+    <title>TheFridge</title>
+    <vendor>team</vendor>
+    <description>TheFridge</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TheFridge.jar" size="76292" download="eager" />
+    <jar href="libs/byte-buddy-1.8.15.jar" size="2987269" download="eager" />
+    <jar href="libs/client-combined-3.141.59-sources.jar" size="529743" download="eager" />
+    <jar href="libs/client-combined-3.141.59.jar" size="1527879" download="eager" />
+    <jar href="libs/commons-exec-1.3.jar" size="54423" download="eager" />
+    <jar href="libs/controlsfx-8.0.4.jar" size="572719" download="eager" />
+    <jar href="libs/controlsfx-8.40.11.jar" size="985420" download="eager" />
+    <jar href="libs/guava-25.0-jre.jar" size="2738171" download="eager" />
+    <jar href="libs/jfoenix-8.0.7.jar" size="2631271" download="eager" />
+    <jar href="libs/junit.jar" size="314932" download="eager" />
+    <jar href="libs/mysql-connector-java-8.0.18.jar" size="2330521" download="eager" />
+    <jar href="libs/okhttp-3.11.0.jar" size="413639" download="eager" />
+    <jar href="libs/okio-1.14.0.jar" size="85756" download="eager" />
+    <jar href="libs/org.apiguardian_1.0.0.v20190212-2109.jar" size="16058" download="eager" />
+    <jar href="libs/org.hamcrest.core_1.3.0.v20180420-1519.jar" size="66997" download="eager" />
+    <jar href="libs/org.junit.jupiter.api_5.4.0.v20190212-2109.jar" size="162352" download="eager" />
+    <jar href="libs/org.junit.jupiter.engine_5.4.0.v20190212-2109.jar" size="203209" download="eager" />
+    <jar href="libs/org.junit.jupiter.migrationsupport_5.4.0.v20190212-2109.jar" size="44015" download="eager" />
+    <jar href="libs/org.junit.jupiter.params_5.4.0.v20190212-2109.jar" size="556207" download="eager" />
+    <jar href="libs/org.junit.platform.commons_1.4.0.v20190212-2109.jar" size="107586" download="eager" />
+    <jar href="libs/org.junit.platform.engine_1.4.0.v20190212-2109.jar" size="168389" download="eager" />
+    <jar href="libs/org.junit.platform.launcher_1.4.0.v20190212-2109.jar" size="119804" download="eager" />
+    <jar href="libs/org.junit.platform.runner_1.4.0.v20190212-2109.jar" size="33865" download="eager" />
+    <jar href="libs/org.junit.platform.suite.api_1.4.0.v20190212-2109.jar" size="30757" download="eager" />
+    <jar href="libs/org.junit.vintage.engine_5.4.0.v20190212-2109.jar" size="84372" download="eager" />
+    <jar href="libs/org.opentest4j_1.1.1.v20190212-2109.jar" size="21311" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="logic.application.Main"  name="TheFridge" />
+  <update check="background"/>
+</jnlp>

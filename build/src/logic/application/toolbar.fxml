@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="toolbar" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="126.0" styleClass="column-header" stylesheets="@bootstrap3.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logic.application.ToolBarControllerFXML"> 
+   <children>
+      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="350.0" prefWidth="126.0" style="-fx-background-color: #3cbd99; -fx-opacity: 70%;" styleClass="column-header" stylesheets="@bootstrap3.css">
+         <children>
+            <Button id="yourFridgeButton" mnemonicParsing="false" onAction="#clickedOnYourFridge" prefHeight="400.0" prefWidth="126.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" stylesheets="@bootstrap3.css" text="Your Fridge">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <styleClass>
+                  <String fx:value="context-menu" />
+                  <String fx:value="font-menu-button" />
+               </styleClass>
+               <font>
+                  <Font name="SansSerif Regular" size="13.0" />
+               </font>
+            </Button>
+            <Button id="addFoodButton" mnemonicParsing="false" onAction="#clickedOnAddFood" prefHeight="40.0" prefWidth="134.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" stylesheets="@bootstrap3.css" text="Add Food">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <styleClass>
+                  <String fx:value="context-menu" />
+                  <String fx:value="font-menu-button" />
+               </styleClass>
+               <font>
+                  <Font name="SansSerif Regular" size="13.0" />
+               </font>
+            </Button>
+            <Button id="chooseRecipeButton" mnemonicParsing="false" onAction="#clickedOnChooseRecipes" prefHeight="40.0" prefWidth="127.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" stylesheets="@bootstrap3.css" text="Choose Recipe">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <styleClass>
+                  <String fx:value="context-menu" />
+                  <String fx:value="font-menu-button" />
+               </styleClass>
+               <font>
+                  <Font name="SansSerif Regular" size="13.0" />
+               </font>
+            </Button>
+            <Button id="shareFridgeButton" mnemonicParsing="false" onAction="#clickedOnShareFridge" prefHeight="40.0" prefWidth="128.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" stylesheets="@bootstrap3.css" text="Share Fridge">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <styleClass>
+                  <String fx:value="context-menu" />
+                  <String fx:value="font-menu-button" />
+               </styleClass>
+               <font>
+                  <Font name="SansSerif Regular" size="13.0" />
+               </font>
+            </Button>
+            <Button id="familyMembersButton" mnemonicParsing="false" prefHeight="61.0" prefWidth="126.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" stylesheets="@bootstrap3.css" text="Family Members">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <styleClass>
+                  <String fx:value="context-menu" />
+                  <String fx:value="font-menu-button" />
+               </styleClass>
+               <font>
+                  <Font name="SansSerif Regular" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="323.0" prefWidth="126.0" style="-fx-background-color: #3cbd99; -fx-opacity: 70%;" styleClass="column-header">
+         <children>
+            <Button fx:id="changeFridgeButton" minHeight="70.0" mnemonicParsing="false" onAction="#clickedOnChangeFridge" prefHeight="70.0" prefWidth="70.0">
+               <graphic>
+                  <ImageView fitHeight="73.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/omino.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label text="Change Fridge">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children></VBox>
+      <Button id="logoutButton" mnemonicParsing="false" onAction="#clickedOnLogout" prefHeight="18.0" prefWidth="126.0" style="-fx-border-radius: 0;" styleClass="danger" stylesheets="@bootstrap3.css" text="Logout">
+         <font>
+            <Font name="SansSerif Regular" size="13.0" />
+         </font></Button>
+   </children>
+</VBox>
